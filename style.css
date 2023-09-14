@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('Images/desk.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:poppins;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding: 25px;
+}
+
+.logo{
+    background-image:none ;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar ul,li,a{
+    background-image: none;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    padding: 15px;
+    background-image: none;
+    border: 2px solid;
+    border-radius: 10px;
+}
